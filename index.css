@@ -97,9 +97,9 @@ html, body {
   font-size: 115px;
   font-weight: 400;
   /* color: #fff; */
-  -webkit-text-stroke: 3px #000;
+  -webkit-text-stroke: 3px #060614;
   /* -webkit-text-fill-color: #fff; */
-  -webkit-text-fill-color: aliceblue;
+  -webkit-text-fill-color: LightSteelBlue;
   z-index: 5;
 }
 .sentences{
@@ -132,13 +132,13 @@ html, body {
 
 .letter-right {
   /* -webkit-text-fill-color: #00f; */
-  -webkit-text-fill-color: #000;
+  -webkit-text-fill-color: #060614;
   /* text-decoration: line-through; */
 }
 .letter-wrong {
   /* -webkit-text-fill-color: #f00; */
   /* -webkit-text-fill-color: #fff; */
-  -webkit-text-fill-color: #000;
+  -webkit-text-fill-color: #060614;
 }
 .show {
   display: block;
