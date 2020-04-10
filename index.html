@@ -1,0 +1,48 @@
+<!--
+ * @Date: 2020-02-11 14:36:50
+ * @LastEditors  : lifangdi
+ * @LastEditTime : 2020-02-11 17:57:11
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="index.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video-js.min.css" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+  <div class="video-box">
+    <video
+      id="my-video"
+      class="video"
+      preload
+      style="width: 100%; object-fit: fill"
+    >
+      {# <source src="./videos/video1.mp4" type="video/mp4" /> #}
+    </video>
+    <div id="game-tip" class="display-end">GAME OVER</div>
+    <ul class="wrong-style" id="wrong-box"></ul>
+  </div>
+  <div id="start-tip">
+    <div class="start-sentences">start</div>
+  </div>
+  <div id="next-tip">
+    <div id="next-tip-word" class="next-sentences hide">next</div>
+  </div>
+  <div id="subtitle">
+    <div class="sentences hide"></div>
+  </div>
+
+  <input id="start" type="text">
+  <input id="input" type="text">
+  <input id="next" type="text">
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video.min.js"></script>
+<script src="index.js"></script>
+
+</html>
