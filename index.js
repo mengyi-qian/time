@@ -117,6 +117,8 @@ const nextVideo = () => {
           sentences[0].innerHTML = curCaption
           myPlayer.src(curVideoSrc)
           input.focus()
+          next.value = ''
+          inputNext.innerHTML = ''
         }
       }
       else {

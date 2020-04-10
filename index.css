@@ -94,12 +94,12 @@ html, body {
   letter-spacing: .01em;
   /* transform: translateX(-50%); */
   line-height: 1.2em;
-  font-size: 96.5px;
+  font-size: 115px;
   font-weight: 400;
   /* color: #fff; */
   -webkit-text-stroke: 3px #000;
   /* -webkit-text-fill-color: #fff; */
-  -webkit-text-fill-color: silver;
+  -webkit-text-fill-color: aliceblue;
   z-index: 5;
 }
 .sentences{
